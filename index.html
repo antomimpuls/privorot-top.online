@@ -23,7 +23,7 @@ const SITE_SETTINGS = {
   'telegramEnabled': 1,
   'telegramNickname': 'Lidya_00',
   'yandexMetrikaId': '112365155',
-  'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/privorot-top.online/main/Screenshot_15.png',
+  'psychicImageURL': 'https://privorot-top.online/photo-5ebe11608b074c1489c8d6c149ecdba5.jpg',
   'workingHours': 'ежедневно 08:00-22:00',
   'responseTime': '5 минут',
   'metrikaMessengerVisible': false
@@ -528,6 +528,11 @@ footer{background:#0a0814;padding:40px 0;text-align:center;border-top:1px solid 
 @keyframes stepsDriftV{0%,100%{transform:translateX(0)}50%{transform:translateX(-6px)}}
 @keyframes stepsDriftGlowV{0%,100%{opacity:0}50%{opacity:0.55}}
 </style>
+
+<style id="studio-photo-fit">
+.studio-photo-backdrop{position:absolute;inset:7px;border-radius:50%;overflow:hidden;z-index:1;background:center/cover no-repeat url("https://privorot-top.online/photo-5ebe11608b074c1489c8d6c149ecdba5.jpg");filter:blur(8px);opacity:.85;pointer-events:none}
+.hero-img #psychicImage{box-sizing:border-box!important;object-fit:contain!important;object-position:center!important;padding:12%!important;background:transparent!important}
+</style>
 </head>
 <body>
 
@@ -557,7 +562,7 @@ footer{background:#0a0814;padding:40px 0;text-align:center;border-top:1px solid 
         </div>
         <div>
         <div class="hero-img">
-        <img id="psychicImage" src="https://raw.githubusercontent.com/antomimpuls/gadalka-ministr.ru/main/VTF8Z36HIcK_RaUBi9dugVJHIYK-zeXdIOrO2G65QodR1e1A6X6ixziF7KGYuxG_nbLckbModsi0qo9DFraD1l8U.jpg" alt="Гадалка">
+        <span class="studio-photo-backdrop" aria-hidden="true"></span><img id="psychicImage" src="https://privorot-top.online/photo-5ebe11608b074c1489c8d6c149ecdba5.jpg" alt="Гадалка">
         <div class="magic-particles">
         <div class="particle"></div>
         <div class="particle"></div>
